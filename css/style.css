@@ -44,13 +44,15 @@ p {
 }
 
 /* Mobile first */
-@media screen
- and (min-width: 360px)
- and (max-width: 736px)
- and (-webkit-min-device-pixel-ratio: 3){
+@media (min-width: 320px){
    .container {
-     width: auto;
+     width: 312px;
    }
+}
+@media (min-width: 425px) {
+  .container {
+    width: 415px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -296,4 +298,8 @@ header .hero img {
   text-align: left;
   font-size:13px;
   margin-top: 30px;
+}
+.user.even {
+  position: relative;
+  top: 20px;
 }
