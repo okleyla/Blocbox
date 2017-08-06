@@ -60,7 +60,7 @@ p {
 }
 @media (min-width: 425px) {
   .container {
-    width: 300px;
+    width: 350px;
   }
 }
 
@@ -367,7 +367,7 @@ footer .right-footer-block{
    background-color: transparent;
 }
 footer .logo{
-   padding: 0;
+   padding: 1em;
    margin: 0 auto;
    display: block;
 
