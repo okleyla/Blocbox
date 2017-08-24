@@ -409,6 +409,10 @@ footer .logo{
    margin-right:10px;
    margin-top:8px;
  }
+ .left-nav .items ul li a:active {
+   background-color: #2ECC71;
+ }
+
 
  /* CONTENT */
  .content {
