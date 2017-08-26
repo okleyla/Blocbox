@@ -413,7 +413,6 @@ footer .logo{
    background-color: #2ECC71;
  }
 
-
  /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
@@ -485,6 +484,10 @@ footer .logo{
    margin: 5px 0 0;
  }
 
+/* IMAGE POSTS */
+
+
+
 /* MEDIA QUERIES*/
 /*MEDIA-MOBILE DEVICE*/
 @media (min-width: 320px){
@@ -493,6 +496,7 @@ footer .logo{
    }
    .one-half {
      width: 85%;
+     text-align: center;
    }
    .one-third {
      width:95%;
@@ -500,7 +504,16 @@ footer .logo{
    .one-fourth {
      width: 95%;
    }
+   header nav ul {
+    float: inherit;
+    padding: 0;
+    margin-left: 25%;
+   }
+  .user.even {
+    top: 0;
+  }
 }
+
 /*MEDIA-LARGER MOBILE DEVICE*/
 @media (min-width: 425px) {
   .container {
